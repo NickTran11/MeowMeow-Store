@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stingray - MeowMeow Store</title>
+    <style>
+        body {
+            font-family: 'Roboto', Arial, sans-serif;
+            background: linear-gradient(135deg, #ffe6e6, #ff99c2);
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #ff5f8f;
+            color: #fff;
+            text-align: center;
+            padding: 20px 10px;
+            font-size: 2em;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .animal-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 80vh;
+            padding: 20px;
+        }
+
+        .animal-card {
+            background-color: #ffffff;
+            border-radius: 15px;
+            max-width: 800px;
+            padding: 30px;
+            box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
+            animation: fadeIn 0.8s ease-in-out;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: scale(0.9);
+            }
+            to {
+                opacity: 1;
+                transform: scale(1);
+            }
+        }
+
+        h1, h2 {
+            color: #ff5f8f;
+        }
+
+        h3 {
+            color: #ff759f;
+        }
+
+        .animal-card img {
+            width: 100%;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.15);
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        ul li {
+            padding: 5px 0;
+            color: #555;
+            font-size: 1em;
+        }
+
+        .price {
+            font-size: 1.5em;
+            font-weight: bold;
+            color: #ff4073;
+            margin-bottom: 15px;
+        }
+
+        footer {
+            text-align: center;
+            background-color: #ff5f8f;
+            color: #fff;
+            padding: 10px;
+            font-size: 0.9em;
+            position: relative;
+        }
+
+        .button {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            background: #ff5f8f;
+            color: #fff;
+            text-decoration: none;
+            font-size: 1em;
+            border-radius: 25px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+            transition: all 0.3s ease;
+        }
+
+        .button:hover {
+            background: #ff4073;
+            box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.3);
+        }
+
+        .button-container {
+            display: flex;
+            justify-content: space-between;
+            gap: 20px; /* Adjust the gap for more space */
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        Stingray - Underwater Scorpion
+    </header>
+
+    <div class="animal-container">
+        <div class="animal-card">
+            <img src="https://media.istockphoto.com/id/489727742/photo/southern-stingray-dasyatis-americana.jpg?s=612x612&w=0&k=20&c=aveRam35PU9VOK3vO3Tcue1f94PN4l9uGhNC0mxBeMQ=" alt="Stingray">
+            <h2 class="price">Price: $5,000</h2>
+            <p><strong>Description:</strong> A fish pet is too normal and noobie. Show the world you own a stingray as a pet, buy now in MeowMeow Store!</p>
+
+            <h3>About</h3>
+            <ul>
+                <li>Average life span is 15-25 years.</li>
+                <li>Diets: clams, oysters, shrimps, small fish.</li>
+                <li>Some species can grow up to 6 feet wide!</li>
+            </ul>
+
+            <h3>Fun Fact</h3>
+            <p>Stingrays have eyes on the bottom of their body so they hunt foods by scenting by nose.</p>
+            
+            <div class="button-container">
+            <a href="buynow.html" class="button">Buy Now</a>
+            <a href="listing.html" class="button">Back to Listings</a>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        Contact us: 1meowmeowstore1@gmail.com | 800-800-8135
+    </footer>
+</body>
+</html>
+
