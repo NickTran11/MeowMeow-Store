@@ -1,2 +1,0 @@
-# MeowMeow-Store
-MeowMeow Store
